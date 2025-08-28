@@ -1,6 +1,6 @@
 local config = {
   options = {
-    mode = "tabs",
+    mode = "buffers",
     themable = true,
     numbers = "ordinal",
   }
