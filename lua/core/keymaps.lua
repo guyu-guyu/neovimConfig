@@ -37,3 +37,6 @@ keymap.set("n", "<leader>9", ":BufferLineGoToBuffer 9<CR>")
 --markdown checkBox操作
 keymap.set("n", "ct", ":Checkbox toggle<CR>")
 keymap.set("n", "ci", ":Checkbox interactive<CR>")
+
+--重命名变量
+keymap.set("n", "<C-r><C-r>", ":IncRename ")
