@@ -24,6 +24,7 @@ keymap.set("n", "<leader>nf", ":NvimTreeFocus<CR>")
 --buffer操作
 keymap.set("n", "gp", ":BufferLineTogglePin<CR>") --切换固定当前标签页
 keymap.set("n", "go", ":BufferLineCloseOthers<CR>") --关闭其他所有标签页
+keymap.set("n", "gx", ":BufDel<CR>") --关闭当前标签页
 keymap.set("n", "<leader>1", ":BufferLineGoToBuffer 1<CR>")
 keymap.set("n", "<leader>2", ":BufferLineGoToBuffer 2<CR>")
 keymap.set("n", "<leader>3", ":BufferLineGoToBuffer 3<CR>")
@@ -40,3 +41,6 @@ keymap.set("n", "ci", ":Checkbox interactive<CR>")
 
 --重命名变量
 keymap.set("n", "<C-r><C-r>", ":IncRename ")
+
+--调试代码
+keymap.set("n", "<F5>", ":RunCode<CR>")
